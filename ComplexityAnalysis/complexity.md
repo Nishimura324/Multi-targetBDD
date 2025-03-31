@@ -7,9 +7,9 @@ TOTALTIME(n,k,m,q,sigma,beta_range,itr_range,P,qc,mlwe,qset='s')
 ```
 
 * (n,k,m,q,sigma) : Module-LWE parameter
-    * lattice size : $n*k \times n*m$, $d=n*m$
+    * lattice size : $nk \times nm$, $d=n*m$
 
-* $beta$ : BKZ blocksize
+* beta : BKZ blocksize
 * itr : repetition number of BKZ
 
 * P : total success probability 
